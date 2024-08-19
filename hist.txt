@@ -1,0 +1,120 @@
+    1  cd pipeml_ai/ulc_gat_cluster/
+    2  conda create env -f gat_env
+    3  conda create env -f gat_env.yaml 
+    4  conda create env -f --help
+    5  conda create env --file gat_env.yaml 
+    6  conda env create --file gat_env.yaml 
+    7  conda config --set ssl_verify no
+    8  conda env create --file gat_env.yaml 
+    9  conda activate gat_env
+   10  conda init
+   11  source /opt/conda/bin/activate 
+   12  conda activate gat_env
+   13  cd tools/
+   14  ls
+   15  python3 accuracy_metrics_pipeml.py 
+   16  ls /home/pipeml/pipeml_ai/ulc_gat_cluster/datasets/stl10/image_dataset_debug
+   17  ls /home/pipeml/pipeml_ai/ulc_gat_cluster/datasets/stl10/example_images/
+   18  python3 accuracy_metrics_pipeml.py 
+   19  ls /home/pipeml/.conda/envs/gat_env/bin/python
+   20* ls /home/hoomanulc/ulc/pipe-ml/ulc_gat_clust
+   21  python3 accuracy_metrics_pipeml.py 
+   22  ls /home/pipeml/pipeml_ai/ulc_gat_cluster/images/pipemlv2
+   23  python3 accuracy_metrics_pipeml.py 
+   24  python3 visualize_att_map_pipeml.py 
+   25  ls /home/pipeml/pipeml_ai/ulc_gat_cluster/images/pipemlv2_debug/
+   26  python3 accuracy_metrics_pipeml.py 
+   27  python3 visualize_att_map_pipeml.py 
+   28  python3 accuracy_metrics_pipeml.py 
+   29  conda deactivate
+   30  python3
+   31  cd ..
+   32  cd VAN-Classification/
+   33  python3 train.
+   34  python3 train.po
+   35  python3 train.py 
+   36  python3 train.py --help
+   37  pip install timm
+   38  python3 train.py --help
+   39  pip --help
+   40  pip inspect 
+   41  python3
+   42  python3 train.py --version
+   43  conda create --name van_clas
+   44  conda activate van_clas
+   45  python --version
+   46  clear
+   47  conda install pytorch==1.7.0 torchvision torchaudio 
+   48  ls /usr/local/
+   49  conda list pytorch 
+   50  conda list | grep pytorch
+   51  conda search pytorch
+   52  conda install pytorch==1.7.1 torchvision torchaudio 
+   53  conda search torchaudio
+   54  conda install torchvision
+   55  conda search timm
+   56  conda install conda-forge::timm
+   57  python
+   58  python train.py --version
+   59  python train.py --help
+   60  conda remove timm
+   61  conda search timm
+   62  conda search conda-forge::timm
+   63  conda install conda-forge::timm==0.4.12
+   64  python
+   65  conda install requests
+   66  python train.py --help
+   67  python
+   68  conda deactivate
+   69  conda env list
+   70  conda activate van_clas
+   71  ls /opt/conda/bin/ | grep python
+   72  source distributed_train.sh 
+   73  source distributed_train.sh 7
+   74  source train.sh 
+   75  source train.sh \
+   76  source train.sh 
+   77  source train.sh 1
+   78  python train.py 
+   79  python train.py ./
+   80  conda install tqdm
+   81  python train.py ./
+   82  python train.py imagenet100/
+   83  python train.py ./
+   84  python train.py ./ -b 16
+   85  ls
+   86  ls models/
+   87  ls output/
+   88  ls output/train/
+   89  ls output/train/20240819-213516-resnet50-224
+   90  source eval.sh 
+   91  python
+   92  source eval.sh 
+   93  python
+   94  source eval.sh 
+   95  pwd
+   96  conda config --set ssl_verify no
+   97  sudo update-ca-certificates
+   98  sudo conda update certifi
+   99  export REQUESTS_CA_BUNDLE=/home/pipeml/pipeml_ai/docker/z_scaler_root_cert/z_scaler.crt 
+  100  conda remove requests
+  101  sudo conda update certifi
+  102  conda config --set ssl_verify no
+  103  conda remove requests
+  104  conda config --set ssl_verify no
+  105  conda remove requests
+  106  conda config --set ssl_verify True
+  107  conda remove requests
+  108  conda config --set ssl_verify False
+  109  conda remove requests
+  110  conda config --set ssl_verify ../docker/z_scaler_root_cert/z_scaler.crt 
+  111  conda remove requests
+  112  cd ..
+  113  cd ulc_van_classification/
+  114  python train.py ./ -b 16
+  115  export REQUESTS_CA_BUNDLE=$(python -m certifi)
+  116  pip install pip_system_certs
+  117  conda remove requests
+  118  pip install requests==2.27.1
+  119  python
+  120  history>hist.txt
