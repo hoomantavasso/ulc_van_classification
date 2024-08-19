@@ -9,6 +9,7 @@ Hacked together by Ross Wightman (https://github.com/rwightman)
 """
 import argparse
 import os
+os.environ['CURL_CA_BUNDLE'] = ''
 import csv
 import glob
 import time
@@ -19,7 +20,8 @@ import torch.nn.parallel
 from collections import OrderedDict
 from contextlib import suppress
 
-from timm.models import create_model, apply_test_time_pool, load_checkpoint, is_model, list_models
+from timm.models import create_model, load_checkpoint, is_model, list_models
+from timm.layers import apply_test_time_pool
 from timm.data import create_dataset, create_loader, resolve_data_config, RealLabelsImagenet
 from timm.utils import accuracy, AverageMeter, natural_key, setup_default_logging, set_jit_legacy
 
